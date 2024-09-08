@@ -1,15 +1,21 @@
+// Mengakses Package
 import Tugas4.BangunRuang;
 import java.util.Scanner;
 
 public class Bangun {
     public static void main(String[] args) throws Exception {
-
+        // Scanner
         Scanner input = new Scanner(System.in);
+        // Membuat Object
         BangunRuang bangun = new BangunRuang();
+
+        // Selector untuk menu
         int selector;
+        // untuk loop
         int loop = 1;
 
         do {
+            // Menu
             System.out.println("\n\nProgram Menghitung Bangun Datar dan Bangun Ruang");
             System.out.println("==================================================");
             System.out.println("1. Bangun Datar");
@@ -18,8 +24,10 @@ public class Bangun {
             System.out.print("Pilih : ");
             selector = input.nextInt();
             switch (selector) {
+                // Bangun Datar
                 case 1:
                     do {
+                        // Sub Menu Bangun Datar
                         System.out.println("\n\nBangun Datar");
                         System.out.println("=============");
                         System.out.println("1. Persegi");
@@ -31,6 +39,7 @@ public class Bangun {
                         System.out.print("Pilih : ");
                         selector = input.nextInt();
                         switch (selector) {
+                            // Persegi
                             case 1:
                                 do {
                                     System.out.print("\nMasukkan sisi : ");
@@ -45,6 +54,7 @@ public class Bangun {
                                 loop = 1;
                                 break;
 
+                            // Persegi Panjang
                                 case 2:
                                 do {
                                     System.out.print("\nMasukkan panjang : ");
@@ -60,6 +70,8 @@ public class Bangun {
                                 } while (loop == 1);
                                 loop = 1;
                                 break;
+
+                            // Lingkaran
                             case 3:
                                 do {
                                     System.out.print("\nMasukkan jari-jari : ");
@@ -73,6 +85,8 @@ public class Bangun {
                                 } while (loop == 1);
                                 loop = 1;
                                 break;
+
+                            // Segitiga
                             case 4:
                                 do {
                                     System.out.print("\nMasukkan alas : ");
@@ -99,8 +113,10 @@ public class Bangun {
                     } while (loop == 1);
                     loop = 1; 
                     break;
+                // Bangun Ruang
                 case 2:
                     do {
+                        // Sub Menu Bangun Ruang
                         System.out.println("\n\nBangun Ruang");
                         System.out.println("=============");
                         System.out.println("1. Kubus");
@@ -112,6 +128,7 @@ public class Bangun {
                         System.out.print("Pilih : ");
                         selector = input.nextInt();
                         switch (selector) {
+                            // Kubus
                             case 1:
                                 do {
                                     System.out.print("\nMasukkan sisi : ");
@@ -125,6 +142,8 @@ public class Bangun {
                                 } while (loop == 1);
                                 loop = 1;
                                 break;
+
+                            // Balok
                             case 2:
                                 do {
                                     System.out.print("\nMasukkan panjang : ");
@@ -142,6 +161,8 @@ public class Bangun {
                                 } while (loop == 1);
                                 loop = 1;
                                 break;
+
+                            // Prisma
                             case 3:
                                 do {
                                     System.out.print("\nMasukkan alas : ");
@@ -159,6 +180,8 @@ public class Bangun {
                                 } while (loop == 1);
                                 loop = 1;
                                 break;
+
+                            // Tabung
                             case 4:
                                 do {
                                     System.out.print("\nMasukkan jari-jari : ");
@@ -179,12 +202,14 @@ public class Bangun {
                                 break;
                             default:
                                 System.out.println("Exiting...");
+                                // end program
                                 System.exit(0);
                                 break;
                         }
                     } while (loop == 1);
                     loop = 1;
                     break;
+                // Exit
                 default:
                     System.out.println("\nTerima Kasih :)\n");
                     loop = 0;
