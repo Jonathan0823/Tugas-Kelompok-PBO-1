@@ -3,7 +3,7 @@ import Tugas4.BangunRuang;
 import java.util.Scanner;
 
 public class Bangun {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
         // Scanner
         Scanner input = new Scanner(System.in);
         // Membuat Object
