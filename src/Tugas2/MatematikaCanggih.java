@@ -1,4 +1,4 @@
-package tugas2;
+package Tugas2;
   
 public class MatematikaCanggih {
     public int tambah(int a, int b) {
