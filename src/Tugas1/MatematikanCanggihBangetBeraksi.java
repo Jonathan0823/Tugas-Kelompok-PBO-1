@@ -1,4 +1,4 @@
-package Tugas2;
+package Tugas1;
 
 public class MatematikanCanggihBangetBeraksi {
     public static void main(String[] args) {
@@ -9,6 +9,7 @@ public class MatematikanCanggihBangetBeraksi {
         System.out.println("Hasil perkalian yaitu " +mtk.kali(20, 10));
         System.out.println("Hasil modulus yaitu " +mtk.modulus(20, 10));
         System.out.println("Hasil pertambahan tiga yaitu " +mtk.pertambahanTiga(20, 10, 15));
+        System.out.println("Hasil pembagian yaitu " +mtk.bagi(20, 10));
         
     }
 }

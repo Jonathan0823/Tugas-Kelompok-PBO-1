@@ -1,4 +1,4 @@
-package Tugas1;
+package Tugas2;
 
 public class Matematika {
     public double pertambahan(double a, double b) {

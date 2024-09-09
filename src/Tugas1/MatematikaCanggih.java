@@ -1,19 +1,19 @@
 package Tugas1;
-
-public class MatematikaCanggih extends Matematika {
-    String NIM;
-    String Nama;
-    
-    public MatematikaCanggih(String NIM, String Nama) {
-        this.NIM = NIM;
-        this.Nama = Nama;
+  
+public class MatematikaCanggih {
+    public int tambah(int a, int b) {
+        return a + b;
     }
     
-    public double perkalian(double a, double b) {
+    public int kurang(int a, int b) {
+        return a - b;
+    }
+    
+    public int kali(int a, int b) {
         return a * b;
     }
     
-    public double pembagian(double a, double b) {
+    public int bagi(int a, int b) {
         if(b != 0) {
             return a / b;
         }else {
@@ -21,13 +21,8 @@ public class MatematikaCanggih extends Matematika {
             return 0;
         }
     }
-    public double modulus(double a, double b) {
-        return a % b;
-    }        
     
-    public void tampilkanData() {
-        System.out.println("NIM     : " +NIM);
-        System.out.println("Nama    : " +Nama);
-   
+    public int modulus(int a, int b) {
+        return a % b;
     }
 }

@@ -1,4 +1,4 @@
-package Tugas2;
+package Tugas1;
 
 public class MatematikaCanggihBanget extends MatematikaCanggih {
     public int pertambahanTiga(int a, int b, int c) {
