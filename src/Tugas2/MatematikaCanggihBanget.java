@@ -1,5 +1,8 @@
-package Tugas2;
+package tugas2;
 
-public class MatematikaCanggihBanget {
-    
+public class MatematikaCanggihBanget extends MatematikaCanggih {
+    public int pertambahanTiga(int a, int b, int c) {
+        return a + b + c;
+    }
+}
 }
