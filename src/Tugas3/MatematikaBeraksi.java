@@ -2,9 +2,6 @@ package Tugas3;
 
 public class MatematikaBeraksi {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         MatematikaCanggih mtk = new MatematikaCanggih("Chairul", "23100");
         System.out.println("Pertambahan" + mtk.pertambahan(12.5, 28.7, 14.2));
