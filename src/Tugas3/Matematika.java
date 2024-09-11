@@ -1,4 +1,4 @@
-package Tugas3;
+package tugas3;
 
 public class Matematika {
     

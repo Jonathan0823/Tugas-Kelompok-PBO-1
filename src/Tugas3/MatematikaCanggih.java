@@ -1,4 +1,4 @@
-package Tugas3;
+package tugas3;
 
 public class MatematikaCanggih extends Matematika {
     String nama;

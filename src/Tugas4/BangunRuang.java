@@ -1,4 +1,4 @@
-package Tugas4;
+package tugas4;
 
 // Inheritance BangunDatar
 public class BangunRuang extends BangunDatar{

@@ -1,4 +1,4 @@
-package Tugas4;
+package tugas4;
 
 public class BangunDatar {
 

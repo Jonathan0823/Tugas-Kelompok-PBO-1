@@ -1,6 +1,7 @@
 // Mengakses Package
-import Tugas4.BangunRuang;
 import java.util.Scanner;
+
+import tugas4.BangunRuang;
 
 public class Bangun {
     public static void main(String[] args){
