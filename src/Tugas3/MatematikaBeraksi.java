@@ -22,6 +22,12 @@ public class MatematikaBeraksi {
         System.out.print("Masukkan NIM : ");
         String nim = input.nextLine();
 
+        if (!nim.matches("[0-9]+")) {
+            System.out.println("NIM harus berupa angka");
+            System.out.println("Silahkan ulangi program");
+            System.exit(0);
+        }
+
         // Membuat object
         MatematikaCanggih matematika = new MatematikaCanggih(nama,nim);
 
